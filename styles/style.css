@@ -52,6 +52,8 @@ article li:hover {
 
 section img {
     border-radius: 15px;
+    width: 130px;
+    height: 130px;
 }
 
 .subject-contain {
@@ -172,26 +174,29 @@ a{
 }
 
 .search {
-    height: 20px;
-    font-size: 14px;
-    border: 1px solid rgb(135, 201, 231);
+    height: 25px;
+    border: 2px solid rgb(146, 225, 247);
     border-radius: 30px;
-    background-color: rgb(212, 247, 235);
+    background-color: rgb(212, 241, 249);
+    margin-left: 25px;
 }
 
 .search input {
+    font-size: 16px;
     border: 0px;
     border-radius: 30px;
     outline: none;
     padding-left: 10px;
-    background-color:transparent;
+    width: 200px;
+    background-color: transparent;
 }
 
 .search button {
+    font-size: 16px;
     border: 0px;
     border-radius: 30px;
     height: 100%;
-    background-color: rgb(135, 201, 231);
+    background-color: rgb(146, 225, 247);
     cursor: pointer;
     float: right;
 }
@@ -199,6 +204,7 @@ a{
 .search button:hover {
     font-weight: bold;
 }
+
 
 
 footer {
