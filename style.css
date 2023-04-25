@@ -137,15 +137,15 @@ nav li:hover{
 }
 
 #menu1::marker{
-    content: '🥘'
+    content: '🥘 '
  }
 
 #menu2::marker{
-    content: '💰'
+    content: '💰 '
  }
 
 #menu3::marker{
-    content: '👟'
+    content: '👟 '
  }
 
 a{
