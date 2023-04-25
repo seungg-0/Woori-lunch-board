@@ -1,10 +1,28 @@
-* {
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
     box-sizing: border-box;
+    margin-left: 30px;
+}
+
+header img {
+    width: 150px;
+    padding-bottom: 100px;
+}
+
+.left-space {
+    /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
 }
 
 article ul {
-    list-style: none;
-    padding-left: 0px;
+    list-style:none;
+    padding-left:0px;
 }
 
 article li {
@@ -32,10 +50,8 @@ article li:hover {
     height: 130px;
 }
 
-img {
+section img {
     border-radius: 15px;
-    width: 130px;
-    height: 130px;
 }
 
 .subject-contain {
@@ -47,9 +63,9 @@ img {
     max-width: 350px;
     font-size: 35px;
     margin-bottom: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
 
 .like-contain {
@@ -73,7 +89,7 @@ img {
     font-size: 20px;
 }
 
-a {
+section a {
     text-decoration: none;
     color: black;
 }
@@ -88,9 +104,9 @@ a {
 
 .description2 {
     max-width: 350px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
 
 .price-contain {
@@ -104,4 +120,92 @@ a {
     font-size: 28px;
     color: rgb(7, 95, 239);
     font-weight: 600;
+}
+
+nav li{
+    margin-top: 150px;
+    width: 100%;
+    padding-top: 20;
+    border-right:1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+}
+nav li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menu1::marker{
+    content: '🥘'
+ }
+
+#menu2::marker{
+    content: '💰'
+ }
+
+#menu3::marker{
+    content: '👟'
+ }
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+/* header */
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+
+.box {
+    font-size: 20px;
+}
+
+.box:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search {
+    height: 20px;
+    font-size: 14px;
+    border: 1px solid rgb(135, 201, 231);
+    border-radius: 30px;
+    background-color: rgb(212, 247, 235);
+}
+
+.search input {
+    border: 0px;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 10px;
+    background-color:transparent;
+}
+
+.search button {
+    border: 0px;
+    border-radius: 30px;
+    height: 100%;
+    background-color: rgb(135, 201, 231);
+    cursor: pointer;
+    float: right;
+}
+
+.search button:hover {
+    font-weight: bold;
+}
+
+
+footer {
+    width: 100%;
+    height: 110px;
+    bottom: 0px;
+    font-size: 14px;
+    display: flex;
+	justify-content : center;
 }
