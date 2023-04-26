@@ -19,11 +19,21 @@
 상단에 이미지를 추가하는데 위치를 잡는게 어려웠습니다.  
 
 ```
+/* header */
 section header {
     display: flex;
     flex-direction: column;
     align-items: center;
     
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    width: 600px;
 }
 ```
 
