@@ -19,6 +19,7 @@
 상단에 이미지를 추가하는데 위치를 잡는게 어려웠습니다.  
 
 '''
+css
 section header {
     display: flex;
     flex-direction: column;
